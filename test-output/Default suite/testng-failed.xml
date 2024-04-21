@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.session8.Authorization">
+        <methods>
+          <include name="withoutAuth"/>
+          <include name="digestAuth"/>
+        </methods>
+      </class> <!-- com.session8.Authorization -->
+      <class name="com.session9.AuthorizationBearerTokenAuthenti">
+        <methods>
+          <include name="bearerToken"/>
+        </methods>
+      </class> <!-- com.session9.AuthorizationBearerTokenAuthenti -->
+      <class name="com.session10.AuthorizationDemo">
+        <methods>
+          <include name="getWeatherDataByCity"/>
+        </methods>
+      </class> <!-- com.session10.AuthorizationDemo -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
