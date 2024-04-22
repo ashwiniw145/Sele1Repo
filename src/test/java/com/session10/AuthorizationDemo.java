@@ -23,6 +23,11 @@ public class AuthorizationDemo {
 		System.out.println("Response status line: "+response.statusLine());
 		System.out.println("Response status body: "+response.body().asString());
  		sosy("hello");
+   sosy("hello");
+   sosy("hello");
+
+   sosy("hello");
+   sosy("hello");
 		*/
 		
 	}
