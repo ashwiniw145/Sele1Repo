@@ -22,6 +22,7 @@ public class AuthorizationDemo {
 		Assert.assertEquals(response.statusCode(), 200);
 		System.out.println("Response status line: "+response.statusLine());
 		System.out.println("Response status body: "+response.body().asString());
+ 		sosy("hello");
 		*/
 		
 	}
